@@ -1,0 +1,145 @@
+.navbar {
+  border: 1px solid black;
+  height: 45px;
+  border-radius: 4px;
+  margin: 5px 2px;
+}
+
+.navbar:hover {
+  box-shadow: 2px 2px 2px rgb(216, 224, 226);
+}
+
+.navbar p {
+  display: inline;
+  margin: 10px 15px;
+  font-family: "Archivo", serif;
+  font-size: 12px;
+}
+
+.tabs {
+  position: absolute;
+  right: 15px;
+  top: 8px;
+}
+
+p:hover {
+  font-weight: 600;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+}
+
+.archivo-name {
+  font-family: "Archivo", serif;
+  font-size: 108px;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "width" 100;
+  position: fixed;
+  bottom: 50px;
+  left: 80px;
+}
+
+.archivo-name:hover {
+  font-weight: 660;
+  position: fixed;
+  bottom: 52px;
+  left: 82px;
+}
+
+.archivo-dev {
+  font-family: "Archivo", serif;
+  font-size: 96px;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(207, 205, 205);
+  font-variation-settings: "width" 100;
+  position: fixed;
+  bottom: 150px;
+  left: 100px;
+}
+
+.archivo-dev:hover {
+  font-weight: 400;
+  position: fixed;
+  bottom: 142px;
+  left: 102px;
+}
+
+.container {
+  text-align: left;
+  height: 100%;
+}
+
+.cards-container-1 {
+  border-top: 1.2px solid black;
+  height: 350px;
+  width: 160px;
+  position: relative;
+  left: 600px;
+  top: 100px;
+  margin-right: 60px;
+}
+
+.cards-container-2 {
+  border-top: 1.2px solid black;
+  height: 350px;
+  width: 360px;
+  position: relative;
+  left: 600px;
+  top: 100px;
+  margin-right: 20px;
+}
+
+.cards-container-1 p {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.cards-container-2 p {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+#low-weight {
+  font-weight: 400;
+  margin-bottom: 36px;
+}
+
+#low-weight-1 {
+  font-weight: 400;
+  margin-bottom: 36px;
+}
+
+.card-image-1 {
+  height: 260px;
+  border: 1px solid rgb(17, 215, 57);
+  width: 160px;
+  text-align: center;
+}
+
+.card-image-2 {
+  height: 260px;
+  border: 1px solid rgb(17, 215, 57);
+  width: 360px;
+}
+
+.card-image-1 img {
+  height: 240px;
+  width: 120px;
+  align-self: auto;
+}
+
+.card-image-2 img {
+  height: 240px;
+  width: 360px;
+}
+
+.main-card-container {
+  display: flex;
+}

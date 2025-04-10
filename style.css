@@ -46,8 +46,8 @@ p:hover {
 .archivo-name:hover {
   font-weight: 660;
   position: fixed;
-  bottom: 52px;
-  left: 82px;
+  bottom: 49px;
+  left: 81px;
 }
 
 .archivo-dev {
@@ -65,7 +65,7 @@ p:hover {
 .archivo-dev:hover {
   font-weight: 400;
   position: fixed;
-  bottom: 142px;
+  bottom: 148px;
   left: 102px;
 }
 
@@ -79,9 +79,15 @@ p:hover {
   height: 350px;
   width: 160px;
   position: relative;
-  left: 600px;
-  top: 100px;
+  left: 700px;
+  top: 80px;
   margin-right: 60px;
+}
+
+.cards-container-1:hover {
+  position: relative;
+  left: 702px;
+  top: 72px;
 }
 
 .cards-container-2 {
@@ -89,9 +95,15 @@ p:hover {
   height: 350px;
   width: 360px;
   position: relative;
-  left: 600px;
-  top: 100px;
+  left: 670px;
+  top: 80px;
   margin-right: 20px;
+}
+
+.cards-container-2:hover {
+  position: relative;
+  left: 672px;
+  top: 72px;
 }
 
 .cards-container-1 p {
@@ -111,6 +123,12 @@ p:hover {
   margin-bottom: 36px;
 }
 
+a {
+  font-size: 12px;
+  text-decoration-color: black !important;
+  font-weight: 600;
+  text-decoration: none !important;
+}
 #low-weight-1 {
   font-weight: 400;
   margin-bottom: 36px;
@@ -118,14 +136,12 @@ p:hover {
 
 .card-image-1 {
   height: 260px;
-  border: 1px solid rgb(17, 215, 57);
   width: 160px;
   text-align: center;
 }
 
 .card-image-2 {
   height: 260px;
-  border: 1px solid rgb(17, 215, 57);
   width: 360px;
 }
 
@@ -142,4 +158,18 @@ p:hover {
 
 .main-card-container {
   display: flex;
+}
+
+/* Connect Clique */
+.card-container img {
+  height: 270px;
+  width: 130px;
+  margin-right: 20px;
+  box-shadow: 6px 4px 4px rgb(216, 224, 226);
+}
+
+.container-cards {
+  display: flex;
+  margin-top: 60px;
+  margin-left: 650px;
 }

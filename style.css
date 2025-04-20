@@ -281,3 +281,19 @@ a {
   padding-left: 25px;
   margin: -15px 0 0 25px;
 }
+
+/* About me */
+
+.presentation {
+  width: 500px;
+  padding: 300px 0;
+  margin-left: 160px;
+}
+
+.presentation p {
+  font-size: larger;
+}
+
+.hello {
+  margin-bottom: 0;
+}

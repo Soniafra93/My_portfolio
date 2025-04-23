@@ -206,7 +206,7 @@ a {
 }
 
 .summary {
-  margin: 20px 60px;
+  margin: 20px 20px;
 }
 
 .summary p {
@@ -221,7 +221,7 @@ a {
 .connect-app {
   font-family: "Archivo", serif;
   font-size: 80px;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   color: rgb(207, 205, 205);
   font-variation-settings: "width" 100;

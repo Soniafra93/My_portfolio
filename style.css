@@ -247,6 +247,12 @@ a {
   box-shadow: 6px 4px 4px rgb(216, 224, 226);
 }
 
+.card-container-pp img:hover {
+  position: relative;
+  margin-top: -2px;
+  margin-left: -2px;
+}
+
 .container-cards-pp {
   display: flex;
   margin: 100px 0 40px 100px;

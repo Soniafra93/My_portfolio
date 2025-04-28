@@ -1,0 +1,28 @@
+/* About me */
+
+.presentation {
+  width: 500px;
+  padding: 300px 0 200px 0;
+  margin-left: 160px;
+}
+
+.presentation p {
+  font-size: larger;
+}
+
+.hello {
+  margin-bottom: 0;
+}
+
+.icons {
+  margin: 10px 10px 40px 0;
+  padding-bottom: 30px;
+}
+
+.fa-linkedin {
+  padding-left: 4px;
+}
+
+.fa-envelope {
+  padding: 10px 0 0 15px;
+}

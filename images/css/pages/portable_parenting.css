@@ -1,0 +1,42 @@
+/* Portable Parenting */
+
+.card-container-pp img {
+  height: 180px;
+  width: 280px;
+  margin-right: 20px;
+  box-shadow: 6px 4px 4px rgb(216, 224, 226);
+}
+
+.card-container-pp img:hover {
+  position: relative;
+  margin-top: -2px;
+  margin-left: -2px;
+}
+
+.container-cards-pp {
+  display: flex;
+  margin: 100px 0 40px 100px;
+}
+
+.portable-app {
+  font-family: "Archivo", serif;
+  font-size: 80px;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(207, 205, 205);
+  font-variation-settings: "width" 100;
+  padding-top: 15px;
+  padding-left: 30px;
+  margin-left: 45px;
+  margin-bottom: 0;
+}
+
+.portable-name {
+  font-family: "Archivo", serif;
+  font-size: 96px;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "width" 100;
+  padding-left: 25px;
+  margin: -15px 0 0 25px;
+}

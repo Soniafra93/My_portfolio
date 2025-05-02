@@ -26,3 +26,7 @@
 .fa-envelope {
   padding: 10px 0 0 15px;
 }
+
+h5:hover {
+  margin-left: -2px;
+}

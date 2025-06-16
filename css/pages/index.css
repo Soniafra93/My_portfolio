@@ -4,6 +4,7 @@
   width: 100dvw;
   border-radius: 4px;
   margin: 5px 2px;
+  position: absolute;
 }
 
 .navbar:hover {
@@ -11,20 +12,13 @@
 }
 
 .navbar p {
-  display: inline;
-  margin: 10px 15px;
   font-family: "Archivo", serif;
   font-size: 12px;
 }
 
 .tabs {
-  position: absolute;
-  right: 15px;
-  top: 8px;
-}
-
-.tabs a {
-  padding-right: 15px;
+  position: relative;
+  left: 94dvw;
 }
 
 p:hover {
@@ -52,7 +46,7 @@ p:hover {
   color: rgb(207, 205, 205);
   font-variation-settings: "width" 100;
   position: relative;
-  top: 8dvh;
+  top: 6dvh;
   left: 4dvw;
 }
 
@@ -62,7 +56,7 @@ p:hover {
 
 .container {
   text-align: left;
-  height: 92dvh;
+  height: 90dvh;
 }
 
 .main-card-container {

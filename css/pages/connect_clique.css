@@ -32,7 +32,7 @@
   height: 40dvh;
   width: 100%;
   justify-content: center;
-  margin-top: 2dvh;
+  margin-top: 6dvh;
 }
 
 .container-summary {
@@ -78,6 +78,10 @@
   font-weight: 300;
 }
 
+.container-title {
+  height: 20dvh;
+}
+
 .connect-app {
   font-family: "Archivo", serif;
   font-size: 80px;
@@ -106,6 +110,7 @@
   display: flex;
   padding-right: 5px;
   justify-content: flex-end;
+  margin-right: 25px;
 }
 
 .view a {

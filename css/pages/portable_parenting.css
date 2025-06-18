@@ -42,6 +42,10 @@
   padding: 0 auto;
 }
 
+.container-title {
+  height: 20dvh;
+}
+
 .portable-app {
   font-family: "Archivo", serif;
   font-size: 80px;

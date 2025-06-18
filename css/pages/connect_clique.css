@@ -15,8 +15,8 @@
   margin-right: 20px;
 }
 .card-container img {
-  height: 270px;
-  width: 130px;
+  height: 40dvh;
+  width: 11dvw;
   margin-right: 30px;
   box-shadow: 6px 4px 4px rgb(216, 224, 226);
 }
@@ -32,7 +32,7 @@
   height: 40dvh;
   width: 100%;
   justify-content: center;
-  margin-top: 10dvh;
+  margin-top: 2dvh;
 }
 
 .container-summary {

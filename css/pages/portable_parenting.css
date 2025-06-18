@@ -73,3 +73,13 @@
   padding-left: 25px;
   margin: -15px 0 0 25px;
 }
+
+.container-summary p {
+  font-family: "Archivo", serif;
+  font-size: medium;
+}
+
+.view a {
+  font-family: "Archivo", serif;
+  color: black;
+}

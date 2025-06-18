@@ -107,3 +107,13 @@
   padding-right: 5px;
   justify-content: flex-end;
 }
+
+.view a {
+  font-family: "Archivo", serif;
+  color: black;
+}
+
+.summary p {
+  font-family: "Archivo", serif;
+  font-size: medium;
+}

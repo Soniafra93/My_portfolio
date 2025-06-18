@@ -1,4 +1,19 @@
 /* About me */
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: static;
+}
+
+.nav-item:nth-child(1) {
+  margin-left: auto;
+}
+
+.nav-item:nth-child(2) {
+  margin-right: 20px;
+}
 
 .presentation {
   width: 500px;

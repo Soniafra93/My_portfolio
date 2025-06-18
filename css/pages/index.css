@@ -1,10 +1,15 @@
 .navbar {
   border: 1px solid black;
-  height: 7dvh;
-  width: 100dvw;
+  width: 99%;
   border-radius: 4px;
   margin: 5px 2px;
   position: absolute;
+  align-items: center;
+}
+
+.nav-item {
+  align-self: flex-end;
+  margin-right: 20px;
 }
 
 .navbar:hover {

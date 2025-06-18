@@ -8,6 +8,10 @@
   position: static;
 }
 
+.nav-item:hover {
+  cursor: pointer;
+}
+
 .nav-item:nth-child(1) {
   margin-left: auto;
 }
@@ -16,14 +20,14 @@
   margin-right: 20px;
 }
 
-.card-container-pp img {
+.container-cards-pp img {
   height: 22dvh;
   width: 22dvw;
   margin-right: 20px;
   box-shadow: 6px 4px 4px rgb(216, 224, 226);
 }
 
-.card-container-pp img:hover {
+.container-cards-pp img:hover {
   position: relative;
   margin-top: -2px;
   margin-left: -2px;
@@ -31,10 +35,11 @@
 
 .container-cards-pp {
   display: flex;
-  height: 40dvh;
+  height: 20dvh;
   width: 100%;
   justify-content: center;
   margin-top: 10dvh;
+  margin-bottom: 6dvh;
 }
 
 .container-summary {

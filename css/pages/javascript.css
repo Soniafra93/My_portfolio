@@ -26,10 +26,11 @@ p:hover {
 }
 
 .card-description {
-  padding: 5dvw;
+  padding-left: 5dvw;
   font-family: "Archivo", serif;
   font-size: 15px;
   text-align: left;
+  line-height: 1.6;
 }
 
 .container {

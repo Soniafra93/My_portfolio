@@ -1,28 +1,12 @@
 /* About me */
-.navbar {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  position: static;
-}
-
-.nav-item:nth-child(1) {
-  margin-left: auto;
-}
-
-.nav-item:nth-child(2) {
-  margin-right: 20px;
-}
-
 .presentation {
-  width: 500px;
-  padding: 300px 0 200px 0;
-  margin-left: 160px;
+  word-wrap: break-word;
+  width: 20dvw;
+  margin: 30dvh auto;
 }
 
-.presentation p {
-  font-size: larger;
+.presentation h5 {
+  font-size: 18px;
 }
 
 .hello {
@@ -31,7 +15,9 @@
 
 .icons {
   margin: 10px 10px 40px 0;
-  padding-bottom: 30px;
+  padding-right: 45px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .fa-linkedin {
@@ -44,4 +30,8 @@
 
 h5:hover {
   margin-left: -2px;
+}
+
+h5 {
+  font-family: "Archivo", serif;
 }

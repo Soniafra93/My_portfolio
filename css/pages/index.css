@@ -86,22 +86,33 @@ p:hover {
 }
 
 .cards-container-1:hover {
-  margin-right: 57px;
   margin-top: -3px;
+  cursor: pointer;
 }
 
 .cards-container-2 {
   border-top: 1.3px solid black;
   height: 350px;
   width: 360px;
+  margin-right: 60px;
+}
+
+.cards-container-3 {
+  border-top: 1.3px solid black;
+  height: 350px;
+  width: 360px;
   margin-right: 20px;
 }
-
 .cards-container-2:hover {
-  margin-right: 18px;
   margin-top: -3px;
+  cursor: pointer;
 }
 
+.cards-container-3:hover {
+  margin-right: 18px;
+  margin-top: -3px;
+  cursor: pointer;
+}
 .cards-container-1 p {
   font-family: "Archivo", serif;
   font-size: 12px;
@@ -110,6 +121,13 @@ p:hover {
 }
 
 .cards-container-2 p {
+  font-family: "Archivo", serif;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.cards-container-3 p {
   font-family: "Archivo", serif;
   font-size: 12px;
   font-weight: 600;
@@ -146,6 +164,11 @@ a {
   width: 360px;
 }
 
+.card-image-3 {
+  height: 260px;
+  width: 360px;
+}
+
 .card-image-1 img {
   height: 240px;
   width: 120px;
@@ -153,6 +176,11 @@ a {
 }
 
 .card-image-2 img {
+  height: 240px;
+  width: 360px;
+}
+
+.card-image-3 img {
   height: 240px;
   width: 360px;
 }

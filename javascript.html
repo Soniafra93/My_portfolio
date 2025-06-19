@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Playground</title>
+    <meta
+      name="description"
+      content="My name is Sonia Francesconi and this is my Portfolio"
+    />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.1.2/css/all.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <p class="nav-item" onclick="location.href='index.html';">Projects</p>
+      <p class="nav-item" onclick="location.href='about_me.html';">About me</p>
+    </div>
+    <div class="container">
+      <div class="description">
+        <p>
+          Just a bunch of <strong>MINI PROJECTS</strong>, random experiments,
+          and fun little things I’ve built while playing around with code. It’s
+          where I try new ideas, break stuff (on purpose), and see what sticks.
+        </p>
+      </div>
+      <div class="cards">
+        <div
+          class="cards-container-3"
+          onclick="this.querySelector('a').click();
+        return true;"
+        >
+          <div class="card-info">
+            <a href="./javascript.html">Kanban Board</a>
+            <p id="low-weight-1">Javascript</p>
+          </div>
+          <div class="card-image-3">
+            <img
+              src="images/Screenshot 2025-06-16 at 17.58.35.png"
+              alt="Home page of Portable Parenting"
+            />
+          </div>
+        </div>
+        <div class="card-description column">
+          <p>
+            A simple Kanban-style task manager built with JavaScript. It
+            features draggable cards across three columns — To Do, In Progress,
+            and Done — for organizing tasks in a visual, intuitive way.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

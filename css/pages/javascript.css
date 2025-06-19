@@ -1,0 +1,38 @@
+.description {
+  word-wrap: break-word;
+  width: 73dvw;
+  margin: 20dvh auto;
+}
+
+.description p {
+  font-family: "Archivo", serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  margin: 20px auto;
+  padding: 10dvh;
+}
+
+.column {
+  flex: 50%;
+}
+
+p:hover {
+  font-weight: normal;
+}
+
+.card-description {
+  padding: 5dvw;
+  font-family: "Archivo", serif;
+  font-size: 15px;
+  text-align: left;
+}
+
+.container {
+  width: 75dvw;
+  margin: 10px auto;
+}

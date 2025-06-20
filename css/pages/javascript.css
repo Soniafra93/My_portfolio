@@ -1,39 +1,54 @@
+.container {
+  width: 75dvw;
+  margin: 20dvh auto;
+}
+
+h1 {
+  font-family: "Archivo", serif;
+  font-size: 28px;
+  font-weight: 600;
+}
+
 .description {
   word-wrap: break-word;
-  width: 73dvw;
-  margin: 20dvh auto;
+  margin: 5dvh auto;
 }
 
 .description p {
   font-family: "Archivo", serif;
   font-size: 16px;
   font-weight: 400;
-  text-align: center;
-}
-
-.cards {
-  display: flex;
-  margin: 20px auto;
-  padding: 10dvh;
-}
-
-.column {
-  flex: 50%;
-}
-
-p:hover {
-  font-weight: normal;
-}
-
-.card-description {
-  padding-left: 5dvw;
-  font-family: "Archivo", serif;
-  font-size: 15px;
-  text-align: left;
+  text-align: start;
+  width: 35dvw;
   line-height: 1.6;
 }
 
-.container {
-  width: 75dvw;
-  margin: 10px auto;
+.cards {
+  margin: 20dvh auto;
+  display: flex;
+  justify-content: center;
+}
+
+.card-1 {
+  height: 45dvh;
+  width: 20dvw;
+  border: 0.2px solid black;
+  border-radius: 28px;
+  font-size: small;
+  font-family: "Archivo", serif;
+  font-weight: 600;
+}
+
+.card-1 p {
+  margin-left: 15px;
+}
+
+.inner-card {
+  height: 25dvh;
+  width: 20dvw;
+  border: 0.2px solid red;
+}
+
+p:hover {
+  font-weight: 400;
 }

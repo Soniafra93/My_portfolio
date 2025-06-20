@@ -16,7 +16,7 @@ h1 {
 
 .description p {
   font-family: "Archivo", serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   text-align: start;
   width: 35dvw;
@@ -30,8 +30,7 @@ h1 {
 }
 
 .card-1 {
-  height: 45dvh;
-  width: 20dvw;
+  width: 22dvw;
   border: 0.2px solid black;
   border-radius: 28px;
   font-size: small;
@@ -45,10 +44,53 @@ h1 {
 
 .inner-card {
   height: 25dvh;
-  width: 20dvw;
-  border: 0.2px solid red;
+  width: 22dvw;
+  border-top: 0.5px solid black;
+  background-image: url("../../images/Screenshot\ 2025-06-16\ at\ 17.58.35.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.div-hover {
+  opacity: 0;
 }
 
 p:hover {
   font-weight: 400;
+}
+
+.stack {
+  display: flex;
+  gap: 5px;
+  margin: 15px 0 15px 15px;
+}
+
+.lang {
+  border: 0.2px solid black;
+  padding: 6px;
+  border-radius: 16px;
+}
+
+.lang p {
+  margin: 0 auto;
+}
+
+.card-1:hover .inner-card {
+  background-color: rgba(15, 40, 72, 0.9);
+  background-image: none;
+}
+
+.card-1:hover .div-hover {
+  background-color: rgba(15, 40, 72, 0.9);
+  opacity: 1;
+  color: white;
+  line-height: 1.8;
+  font-size: 14px;
+  margin: 0 auto;
+  font-weight: 400;
+}
+
+.card-1:hover {
+  background-color: rgba(15, 40, 72, 0.9);
 }

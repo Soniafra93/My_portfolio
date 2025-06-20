@@ -68,20 +68,17 @@ p:hover {
 }
 
 .container {
-  text-align: left;
-  height: 90dvh;
+  margin-top: 60px;
+  margin-right: 25px;
 }
 
 .main-card-container {
   display: flex;
   justify-content: flex-end;
-  margin-top: 10dvh;
 }
 
 .cards-container-1 {
   border-top: 1.3px solid black;
-  height: 350px;
-  width: 160px;
   margin-right: 60px;
 }
 
@@ -92,15 +89,13 @@ p:hover {
 
 .cards-container-2 {
   border-top: 1.3px solid black;
-  height: 350px;
-  width: 360px;
+  width: 22dvw;
   margin-right: 60px;
 }
 
 .cards-container-3 {
   border-top: 1.3px solid black;
-  height: 350px;
-  width: 360px;
+  width: 22dvw;
   margin-right: 20px;
 }
 .cards-container-2:hover {
@@ -109,10 +104,10 @@ p:hover {
 }
 
 .cards-container-3:hover {
-  margin-right: 18px;
   margin-top: -3px;
   cursor: pointer;
 }
+
 .cards-container-1 p {
   font-family: "Archivo", serif;
   font-size: 12px;
@@ -160,33 +155,27 @@ a {
 }
 
 .card-image-2 {
-  height: 260px;
-  width: 360px;
+  width: 25dvw;
 }
 
 .card-image-3 {
-  height: 260px;
-  width: 360px;
+  width: 25dvw;
 }
 
 .card-image-1 img {
-  height: 240px;
-  width: 120px;
+  height: 30dvh;
+  width: 8dvw;
   align-self: auto;
 }
 
 .card-image-2 img {
-  height: 240px;
-  width: 360px;
+  height: 25dvh;
+  width: 22dvw;
 }
 
 .card-image-3 img {
-  height: 240px;
-  width: 360px;
-}
-
-.main-card-container {
-  display: flex;
+  height: 25dvh;
+  width: 22dvw;
 }
 
 .title-container {

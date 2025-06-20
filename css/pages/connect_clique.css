@@ -37,36 +37,12 @@
 
 .container-summary {
   display: flex;
-  margin: 25px;
-}
-
-.stack {
-  margin: auto;
-}
-
-.stack-1 {
-  display: flex;
-  margin: 10px;
-}
-
-.stack-2 {
-  display: flex;
-  margin: 10px;
-  margin-left: 25px;
-}
-
-.stack img {
-  height: 40px;
-  width: 40px;
-  margin-right: 10px;
-}
-
-.fa-brands {
-  margin: 10px;
+  margin: 20px auto;
+  width: 84dvw;
 }
 
 .summary {
-  margin: 20px 20px;
+  margin: 40px 20px 0 20px;
 }
 
 .summary p {
@@ -76,10 +52,6 @@
 
 .summary p:hover {
   font-weight: 300;
-}
-
-.container-title {
-  height: 20dvh;
 }
 
 .connect-app {
@@ -106,11 +78,11 @@
 
 .view {
   width: 100%;
-  height: 4dvh;
   display: flex;
   padding-right: 5px;
   justify-content: flex-end;
   margin-right: 25px;
+  margin-top: -25px;
 }
 
 .view a {

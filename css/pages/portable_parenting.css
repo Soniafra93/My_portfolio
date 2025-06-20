@@ -46,6 +46,7 @@
 .container-summary {
   margin-top: 0;
   padding: 0 auto;
+  width: 75dvw;
 }
 
 .portable-app {
@@ -80,5 +81,5 @@
   font-family: "Archivo", serif;
   color: black;
   margin-right: 25px;
-  margin-top: 25px;
+  margin-top: 10px;
 }

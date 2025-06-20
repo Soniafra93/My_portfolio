@@ -22,10 +22,11 @@
 
 .fa-linkedin {
   padding-left: 4px;
+  margin-left: 10px;
 }
 
 .fa-envelope {
-  padding: 10px 0 0 15px;
+  padding-left: 15px;
 }
 
 h5:hover {

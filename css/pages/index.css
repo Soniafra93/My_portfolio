@@ -24,7 +24,7 @@
 
 .navbar p {
   font-family: "Archivo", serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
 }
 
@@ -39,32 +39,25 @@ p:hover {
 
 .archivo-name {
   font-family: "Archivo", serif;
-  font-size: 108px;
-  font-weight: 600;
+  font-size: 112px;
+  font-weight: 500;
   font-style: normal;
   font-variation-settings: "width" 100;
   position: relative;
   top: -10dvh;
 }
 
-.archivo-name:hover {
-  font-weight: 660;
-}
-
 .archivo-dev {
   font-family: "Archivo", serif;
   font-size: 96px;
-  font-weight: 300;
+  font-weight: 100;
   font-style: normal;
-  color: rgb(207, 205, 205);
+  color: rgb(29, 29, 29);
   font-variation-settings: "width" 100;
   position: relative;
   top: 2dvh;
   left: 4dvw;
-}
-
-.archivo-dev:hover {
-  font-weight: 400;
+  letter-spacing: 10px;
 }
 
 .container {
@@ -83,8 +76,8 @@ p:hover {
 }
 
 .cards-container-1:hover {
-  margin-top: -3px;
   cursor: pointer;
+  margin-top: -3px;
 }
 
 .cards-container-2 {
@@ -136,7 +129,7 @@ p:hover {
 
 a {
   color: black;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   text-decoration: none !important;
   font-family: "Archivo", serif;
@@ -144,8 +137,9 @@ a {
 }
 
 #low-weight-1 {
-  font-weight: 400;
+  font-weight: 200;
   margin-bottom: 36px;
+  letter-spacing: 2px;
 }
 
 .card-image-1 {

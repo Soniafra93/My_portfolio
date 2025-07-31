@@ -44,7 +44,9 @@ p:hover {
   font-style: normal;
   font-variation-settings: "width" 100;
   position: relative;
-  top: -10dvh;
+  top: -12dvh;
+  letter-spacing: -4px;
+  padding-left: 30px;
 }
 
 .archivo-dev {

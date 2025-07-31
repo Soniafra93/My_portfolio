@@ -27,6 +27,7 @@ h1 {
   margin: 20dvh auto;
   display: flex;
   justify-content: center;
+  gap: 20px;
 }
 
 .card-1 {
@@ -46,7 +47,17 @@ h1 {
   height: 25dvh;
   width: 22dvw;
   border-top: 0.5px solid black;
+}
+
+#inner-card-1 {
   background-image: url("../../images/Screenshot\ 2025-06-16\ at\ 17.58.35.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#inner-card-2 {
+  background-image: url("../../images/Screenshot\ 2025-07-31\ at\ 17.52.01.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -76,7 +87,12 @@ p:hover {
   margin: 0 auto;
 }
 
-.card-1:hover .inner-card {
+.card-1:hover #inner-card-1 {
+  background-color: rgba(15, 40, 72, 0.9);
+  background-image: none;
+}
+
+.card-1:hover #inner-card-2 {
   background-color: rgba(15, 40, 72, 0.9);
   background-image: none;
 }

@@ -1,4 +1,9 @@
 /* Connect Clique */
+.body-connect {
+  background-color: rgb(241, 239, 234);
+  /*background-color: rgb(172, 184, 184);*/
+}
+
 .navbar {
   width: 100%;
   display: flex;
@@ -6,6 +11,7 @@
   gap: 20px;
   position: sticky;
   top: 0;
+  background-color: white;
 }
 
 .nav-item:nth-child(1) {
@@ -17,9 +23,10 @@
 }
 
 .container-connect {
-  width: 100%;
-  margin: 0 0;
+  width: 90%;
+  margin: 5dvh auto;
   display: flex;
+  background-color: white;
 }
 
 .column {

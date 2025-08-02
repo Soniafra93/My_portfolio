@@ -4,7 +4,8 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  position: static;
+  position: sticky;
+  top: 0;
 }
 
 .nav-item:nth-child(1) {
@@ -14,83 +15,31 @@
 .nav-item:nth-child(2) {
   margin-right: 20px;
 }
-.card-container img {
-  height: 40dvh;
-  width: 11dvw;
-  margin-right: 30px;
-  box-shadow: 6px 4px 4px rgb(216, 224, 226);
-}
 
-.card-container img:hover {
-  position: relative;
-  margin-top: -2px;
-  margin-left: -2px;
-}
-
-.container-cards {
-  display: flex;
-  height: 40dvh;
+.container-connect {
   width: 100%;
-  justify-content: center;
-  margin-top: 6dvh;
-}
-
-.container-summary {
+  margin: 0 0;
   display: flex;
-  margin: 20px auto;
-  width: 84dvw;
 }
 
-.summary {
-  margin: 40px 20px 0 20px;
+.column {
+  height: 92dvh;
+  width: 50%;
+  border: 1px solid red;
 }
 
-.summary p {
-  font-size: smaller;
-  font-weight: 300;
+#column-1 {
+  position: sticky;
+  top: 25px;
 }
 
-.summary p:hover {
-  font-weight: 300;
-}
-
-.connect-app {
+#connect-title {
+  font-size: 58px;
+  letter-spacing: -3px;
   font-family: "Archivo", serif;
-  font-size: 80px;
-  font-weight: 300;
-  font-style: normal;
-  color: rgb(207, 205, 205);
-  font-variation-settings: "width" 100;
-  padding-left: 60px;
-  margin-left: 45px;
-  margin-bottom: 0;
+  padding-left: 3dvw;
 }
 
-.connect-name {
-  font-family: "Archivo", serif;
-  font-size: 96px;
-  font-weight: 700;
-  font-style: normal;
-  font-variation-settings: "width" 100;
-  padding-left: 55px;
-  margin: -15px 0 0 25px;
-}
-
-.view {
-  width: 100%;
-  display: flex;
-  padding-right: 5px;
-  justify-content: flex-end;
-  margin-right: 25px;
-  margin-top: -25px;
-}
-
-.view a {
-  font-family: "Archivo", serif;
-  color: black;
-}
-
-.summary p {
-  font-family: "Archivo", serif;
-  font-size: medium;
+#column-2 {
+  height: 192dvh;
 }

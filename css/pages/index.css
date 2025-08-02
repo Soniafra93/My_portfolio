@@ -70,6 +70,7 @@ p:hover {
 .main-card-container {
   display: flex;
   justify-content: flex-end;
+  margin-top: 40px;
 }
 
 .cards-container-1 {
@@ -178,4 +179,5 @@ a {
   position: absolute;
   margin-top: -20px;
   margin-left: 20px;
+  height: 300px;
 }

@@ -1,10 +1,10 @@
 /* Connect Clique */
 .body-connect {
-  background-color: rgb(241, 239, 234);
+  background-color: rgb(240, 229, 169);
   /*background-color: rgb(172, 184, 184);*/
 }
 
-.navbar {
+.navbar-connect {
   width: 100%;
   display: flex;
   align-items: center;
@@ -12,6 +12,11 @@
   position: sticky;
   top: 0;
   background-color: white;
+  border: white;
+  border-radius: 4px;
+  font-family: "Archivo", serif;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .nav-item:nth-child(1) {
@@ -24,15 +29,15 @@
 
 .container-connect {
   width: 90%;
+  height: 165dvh;
   margin: 5dvh auto;
   display: flex;
   background-color: white;
 }
 
 .column {
-  height: 92dvh;
+  height: 110dvh;
   width: 50%;
-  border: 1px solid red;
 }
 
 #column-1 {
@@ -48,5 +53,19 @@
 }
 
 #column-2 {
-  height: 192dvh;
+  height: 140dvh;
+}
+
+.square {
+  width: 90%;
+  height: 50%;
+  margin-top: 8dvh;
+}
+
+#square-1 {
+  background-color: rgb(16, 16, 16);
+}
+
+#square-2 {
+  background-color: rgb(184, 178, 172);
 }

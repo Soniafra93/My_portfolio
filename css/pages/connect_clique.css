@@ -64,8 +64,40 @@
 
 #square-1 {
   background-color: rgb(16, 16, 16);
+  overflow: hidden;
 }
 
 #square-2 {
   background-color: rgb(184, 178, 172);
+}
+
+#mock-1 {
+  margin: 6dvh 0;
+}
+
+#mockup-column-2 {
+  margin: -21dvh 0;
+}
+
+#mockup-column-3 {
+  margin: -9dvh 0;
+}
+
+.gallery {
+  display: flex;
+  gap: 10px;
+  margin-left: 4dvw;
+}
+
+.square-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+}
+
+img {
+  width: 10dvw;
+  border-radius: 6px;
+  object-fit: cover;
 }

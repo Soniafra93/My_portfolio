@@ -72,11 +72,11 @@
 }
 
 #mock-1 {
-  margin: 6dvh 0;
+  margin: 6dvh 0 1dvh 0;
 }
 
 #mockup-column-2 {
-  margin: -21dvh 0;
+  margin: -21dvh 1dvw 0 1dvw;
 }
 
 #mockup-column-3 {
@@ -100,4 +100,27 @@ img {
   width: 10dvw;
   border-radius: 6px;
   object-fit: cover;
+  border: 1.5px solid white;
+  border-radius: 26px;
+}
+
+.square-info {
+  width: 10dvw;
+  height: 8dvw;
+  padding-top: 8dvh;
+}
+
+.square-info p {
+  color: white;
+  font-family: "Archivo", serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+}
+
+#app {
+  font-size: 10px;
+  font-weight: 100;
+  letter-spacing: 3.6px;
+  margin-top: -1dvh;
 }

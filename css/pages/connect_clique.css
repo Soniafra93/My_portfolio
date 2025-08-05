@@ -96,11 +96,11 @@
   padding: 0;
 }
 
-img {
+.square-column img {
   width: 10dvw;
   border-radius: 6px;
   object-fit: cover;
-  border: 1.5px solid white;
+  border: 1.5px solid rgb(240, 229, 169);
   border-radius: 26px;
 }
 
@@ -111,7 +111,7 @@ img {
 }
 
 .square-info p {
-  color: white;
+  color: rgb(240, 229, 169);
   font-family: "Archivo", serif;
   font-size: 14px;
   font-weight: 500;

@@ -69,6 +69,10 @@
 
 #square-2 {
   background-color: rgb(184, 178, 172);
+  background-image: url("./../../images/Group\ 9\ \(1\).svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #mock-1 {

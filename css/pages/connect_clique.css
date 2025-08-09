@@ -71,11 +71,11 @@
 
 .description-connect {
   padding-inline: 2dvw;
-  font-family: "Archivo", serif;
+  font-family: "Roboto Mono", monospace;
   color: rgb(16, 16, 16);
   font-weight: 100;
-  font-size: 22px;
-  width: 32dvw;
+  font-size: 18px;
+  width: 38dvw;
   line-height: 1.5;
   margin-top: -1dvh;
   :hover {

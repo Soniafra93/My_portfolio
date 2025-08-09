@@ -27,10 +27,32 @@
   margin-right: 20px;
 }
 
+.title-box {
+  width: 90%;
+  height: fit-content;
+  margin: 8dvh auto;
+  background-color: white;
+  margin-bottom: 0;
+  padding-top: 1dvh;
+  border-bottom: 0.1px solid rgb(240, 229, 169);
+  position: sticky;
+  top: 0;
+}
+
+#connect-title {
+  font-size: 68px;
+  letter-spacing: -3px;
+  font-family: "Archivo", serif;
+  padding-left: 2dvw;
+  margin-bottom: 0;
+  margin-top: 4dvh;
+  padding-bottom: 2dvh;
+}
+
 .container-connect {
   width: 90%;
-  height: 165dvh;
-  margin: 5dvh auto;
+  height: 145dvh;
+  margin: 0 auto 5dvh auto;
   display: flex;
   background-color: white;
 }
@@ -42,16 +64,8 @@
 
 #column-1 {
   position: sticky;
-  top: 0;
+  top: 16dvh;
   height: fit-content;
-}
-
-#connect-title {
-  font-size: 62px;
-  letter-spacing: -3px;
-  font-family: "Archivo", serif;
-  padding-left: 2dvw;
-  margin-bottom: 0;
 }
 
 .description-connect {
@@ -68,7 +82,7 @@
 }
 
 .info-connect {
-  margin-top: 4dvh;
+  margin-top: 3dvh;
   padding: 2dvw;
   font-family: "Archivo", serif;
   font-weight: 100;
@@ -93,7 +107,7 @@
 }
 
 #column-2 {
-  height: 140dvh;
+  height: 145dvh;
 }
 
 .square {
@@ -105,7 +119,7 @@
 #square-1 {
   background-color: rgb(16, 16, 16);
   overflow: hidden;
-  margin-top: 21dvh;
+  margin-top: 2dvh;
 }
 
 #square-2 {

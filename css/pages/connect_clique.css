@@ -47,6 +47,7 @@
   margin-bottom: 0;
   margin-top: 4dvh;
   padding-bottom: 2dvh;
+  color: 16, 16, 16;
 }
 
 .container-connect {
@@ -71,6 +72,7 @@
 .description-connect {
   padding-inline: 2dvw;
   font-family: "Archivo", serif;
+  color: rgb(16, 16, 16);
   font-weight: 100;
   font-size: 22px;
   width: 32dvw;

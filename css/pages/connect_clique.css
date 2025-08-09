@@ -47,7 +47,7 @@
 }
 
 #connect-title {
-  font-size: 58px;
+  font-size: 62px;
   letter-spacing: -3px;
   font-family: "Archivo", serif;
   padding-left: 2dvw;
@@ -58,8 +58,8 @@
   padding-inline: 2dvw;
   font-family: "Archivo", serif;
   font-weight: 100;
-  font-size: 18px;
-  width: 30dvw;
+  font-size: 22px;
+  width: 32dvw;
   line-height: 1.5;
   margin-top: -1dvh;
   :hover {
@@ -68,7 +68,7 @@
 }
 
 .info-connect {
-  margin-top: 8dvh;
+  margin-top: 4dvh;
   padding: 2dvw;
   font-family: "Archivo", serif;
   font-weight: 100;
@@ -98,13 +98,14 @@
 
 .square {
   width: 97%;
-  height: 55%;
+  height: 45%;
   margin-top: 4dvh;
 }
 
 #square-1 {
   background-color: rgb(16, 16, 16);
   overflow: hidden;
+  margin-top: 21dvh;
 }
 
 #square-2 {

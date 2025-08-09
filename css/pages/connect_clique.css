@@ -49,7 +49,45 @@
   font-size: 58px;
   letter-spacing: -3px;
   font-family: "Archivo", serif;
-  padding-left: 3dvw;
+  padding-left: 2dvw;
+  margin-bottom: 20px;
+}
+
+.description-connect {
+  padding-inline: 2dvw;
+  font-family: "Archivo", serif;
+  font-weight: 100;
+  font-size: 18px;
+  width: 30dvw;
+  line-height: 1.5;
+  :hover {
+    font-weight: 100;
+  }
+}
+
+.info-connect {
+  margin-top: 8dvh;
+  padding: 2dvw;
+  font-family: "Archivo", serif;
+  font-weight: 100;
+  font-size: 13px;
+  line-height: 1.5;
+  width: 40dvw;
+  font-weight: 200;
+  :hover {
+    font-weight: 200;
+  }
+}
+
+.info-connect p {
+  margin-bottom: 4dvh;
+}
+
+.info-connect strong {
+  font-weight: 600;
+  :hover {
+    font-weight: 600;
+  }
 }
 
 #column-2 {
@@ -57,7 +95,7 @@
 }
 
 .square {
-  width: 98%;
+  width: 97%;
   height: 55%;
   margin-top: 4dvh;
 }
@@ -113,7 +151,7 @@
 .square-info {
   width: 10dvw;
   height: 8dvw;
-  padding-top: 8dvh;
+  padding-top: 2dvh;
 }
 
 .square-info p {

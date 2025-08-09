@@ -42,7 +42,8 @@
 
 #column-1 {
   position: sticky;
-  top: 25px;
+  top: 0;
+  height: fit-content;
 }
 
 #connect-title {
@@ -50,7 +51,7 @@
   letter-spacing: -3px;
   font-family: "Archivo", serif;
   padding-left: 2dvw;
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
 .description-connect {
@@ -60,6 +61,7 @@
   font-size: 18px;
   width: 30dvw;
   line-height: 1.5;
+  margin-top: -1dvh;
   :hover {
     font-weight: 100;
   }

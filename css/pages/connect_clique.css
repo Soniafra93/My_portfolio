@@ -17,6 +17,8 @@
   font-family: "Archivo", serif;
   font-size: 14px;
   font-weight: bold;
+  z-index: 2;
+  border: 0.2px solid rgb(240, 229, 169);
 }
 
 .nav-item:nth-child(1) {
@@ -36,7 +38,8 @@
   padding-top: 1dvh;
   border-bottom: 0.1px solid rgb(240, 229, 169);
   position: sticky;
-  top: 0;
+  top: 2dvh;
+  z-index: 1;
 }
 
 #connect-title {
@@ -238,5 +241,61 @@
   font-size: 16px;
   font-weight: 800;
   letter-spacing: 0.8px;
-  margin-block: 3dvh;
+  margin-block: 4dvh;
+}
+
+.foot {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto 5dvh auto;
+  background-color: white;
+  & a {
+    font-weight: 100;
+    font-size: 10px;
+  }
+}
+
+.section-connect {
+  display: flex;
+  justify-content: space-between;
+  padding: 2dvw;
+}
+
+#sonia {
+  font-family: "Archivo", serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: -0.8px;
+}
+
+.boxes-footer {
+  display: flex;
+  gap: 25px;
+  margin: 2dvh 4dvw;
+}
+
+.box {
+  font-family: "Archivo", serif;
+  font-size: 11px;
+  display: flex;
+  padding: 0 1dvw;
+  border-left: 0.2px solid black;
+  flex-direction: column;
+  & p {
+    margin-block: 0.5dvh;
+    letter-spacing: 1.2px;
+    font-weight: 100;
+  }
+}
+
+.last-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 0.2px solid rgb(240, 229, 169);
+  padding: 1dvh 2dvw 2dvh 2dvw;
+  font-weight: 100;
+  font-size: 10px;
+  font-family: "Archivo", serif;
 }

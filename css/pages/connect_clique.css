@@ -65,7 +65,7 @@
 
 #column-1 {
   position: sticky;
-  top: 16dvh;
+  top: 18dvh;
   height: fit-content;
 }
 
@@ -84,16 +84,16 @@
 }
 
 .info-connect {
-  margin-top: 3dvh;
+  margin-top: 12dvh;
   padding: 2dvw;
-  font-family: "Archivo", serif;
-  font-weight: 100;
-  font-size: 13px;
-  line-height: 1.5;
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+  line-height: 1.8;
   width: 40dvw;
-  font-weight: 200;
+  letter-spacing: -1.2px;
+  font-weight: 400;
   :hover {
-    font-weight: 200;
+    font-weight: 400;
   }
 }
 
@@ -186,4 +186,57 @@
   font-weight: 100;
   letter-spacing: 3.6px;
   margin-top: -1dvh;
+}
+
+.stack-connect {
+  display: flex;
+  gap: 8px;
+  margin-top: 12dvh;
+  & img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  font-family: "Archivo", serif;
+  background-color: white;
+  width: 90%;
+  margin: 0 auto 5dvh auto;
+}
+
+.cards-container-connect {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  width: 90%;
+  margin: 0 auto 5dvh auto;
+  border-radius: 6px;
+}
+
+.card-connect {
+  width: 12%;
+  border-radius: 6px;
+  border: 0.2px solid rgb(240, 229, 169);
+  padding: 1dvw;
+  font-size: 12px;
+  text-align: center;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  & img {
+    width: 50px;
+  }
+}
+
+#developed {
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+  margin-block: 3dvh;
 }

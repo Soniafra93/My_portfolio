@@ -1,16 +1,23 @@
-/* Portable Parenting */
+/* Connect Clique */
+.body-pp {
+  background-color: rgb(184, 178, 172);
+}
 
-.navbar {
+.navbar-pp {
   width: 100%;
   display: flex;
   align-items: center;
   gap: 20px;
-  position: static;
-  justify-content: flex-end;
-}
-
-.nav-item:hover {
-  cursor: pointer;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  border: white;
+  border-radius: 4px;
+  font-family: "Archivo", serif;
+  font-size: 14px;
+  font-weight: bold;
+  z-index: 2;
+  border: 0.2px solid rgb(184, 178, 172);
 }
 
 .nav-item:nth-child(1) {
@@ -21,65 +28,264 @@
   margin-right: 20px;
 }
 
-.container-cards-pp img {
-  height: 22dvh;
-  width: 22dvw;
-  margin-right: 20px;
-  box-shadow: 6px 4px 4px rgb(216, 224, 226);
-}
-
-.container-cards-pp img:hover {
-  position: relative;
-  margin-top: -2px;
-  margin-left: -2px;
-}
-
-.container-cards-pp {
-  display: flex;
-  height: 20dvh;
-  width: 100%;
-  justify-content: center;
-  margin-top: 12dvh;
-  margin-bottom: 6dvh;
-}
-
-.container-summary {
-  margin-top: 0;
-  padding: 0 auto;
-  width: 75dvw;
-}
-
-.portable-app {
-  font-family: "Archivo", serif;
-  font-size: 80px;
-  font-weight: 400;
-  font-style: normal;
-  color: rgb(207, 205, 205);
-  font-variation-settings: "width" 100;
-  padding-top: 15px;
-  padding-left: 30px;
-  margin-left: 45px;
+.title-box-pp {
+  width: 90%;
+  height: fit-content;
+  margin: 8dvh auto;
+  background-color: white;
   margin-bottom: 0;
+  padding-top: 1dvh;
+  border-bottom: 0.1px solid rgb(184, 178, 172);
+  position: sticky;
+  top: 2dvh;
+  z-index: 1;
 }
 
-.portable-name {
+#connect-title {
+  font-size: 68px;
+  letter-spacing: -3px;
   font-family: "Archivo", serif;
-  font-size: 96px;
-  font-weight: 700;
-  font-style: normal;
-  font-variation-settings: "width" 100;
-  padding-left: 25px;
-  margin: -15px 0 0 25px;
+  padding-left: 2dvw;
+  margin-bottom: 0;
+  margin-top: 4dvh;
+  padding-bottom: 2dvh;
+  color: 16, 16, 16;
 }
 
-.container-summary p {
-  font-family: "Archivo", serif;
-  font-size: medium;
+.container-connect {
+  width: 90%;
+  height: 145dvh;
+  margin: 0 auto 5dvh auto;
+  display: flex;
+  background-color: white;
 }
 
-.view a {
+.column {
+  height: 110dvh;
+  width: 50%;
+}
+
+#column-1 {
+  position: sticky;
+  top: 18dvh;
+  height: fit-content;
+}
+
+.description-connect {
+  padding-inline: 2dvw;
+  font-family: "Roboto Mono", monospace;
+  color: rgb(16, 16, 16);
+  font-weight: 100;
+  font-size: 18px;
+  width: 38dvw;
+  line-height: 1.5;
+  margin-top: -1dvh;
+  :hover {
+    font-weight: 100;
+  }
+}
+
+.info-connect {
+  margin-top: 12dvh;
+  padding: 2dvw;
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+  line-height: 1.8;
+  width: 40dvw;
+  letter-spacing: -1.2px;
+  font-weight: 400;
+  :hover {
+    font-weight: 400;
+  }
+}
+
+.info-connect p {
+  margin-bottom: 4dvh;
+}
+
+.info-connect strong {
+  font-weight: 600;
+  :hover {
+    font-weight: 600;
+  }
+}
+
+#column-2 {
+  height: 145dvh;
+}
+
+.square {
+  width: 97%;
+  height: 45%;
+  margin-top: 4dvh;
+}
+
+#square-1-pp {
+  background-image: url("../../images/pp-5.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#square-2-pp {
+  background-color: rgb(240, 229, 169);
+  display: flex;
+  background-size: contain;
+  background-position-x: center;
+  background-image: url("../../images/Group\ 11.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.gallery-pp img {
+  width: 100%;
+}
+
+.square-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+}
+
+.square-column img {
+  width: 10dvw;
+  border-radius: 6px;
+  object-fit: cover;
+  border: 1.5px solid rgb(240, 229, 169);
+  border-radius: 26px;
+}
+
+.square-info {
+  width: 10dvw;
+  height: 8dvw;
+  padding-top: 2dvh;
+}
+
+.square-info p {
+  color: rgb(240, 229, 169);
   font-family: "Archivo", serif;
-  color: black;
-  margin-right: 25px;
-  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+}
+
+#app {
+  font-size: 10px;
+  font-weight: 100;
+  letter-spacing: 3.6px;
+  margin-top: -1dvh;
+}
+
+.stack-connect {
+  display: flex;
+  gap: 8px;
+  margin-top: 12dvh;
+  & img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  font-family: "Archivo", serif;
+  background-color: white;
+  width: 90%;
+  margin: 0 auto 5dvh auto;
+}
+
+.cards-container-connect {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  width: 90%;
+  margin: 0 auto 5dvh auto;
+  border-radius: 6px;
+}
+
+.card-pp {
+  width: 12%;
+  border-radius: 6px;
+  border: 0.2px solid rgb(184, 178, 172);
+  padding: 1dvw;
+  font-size: 12px;
+  text-align: center;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  & img {
+    width: 50px;
+  }
+}
+
+#developed {
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+  margin-block: 4dvh;
+}
+
+.foot {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto 5dvh auto;
+  background-color: white;
+  & a {
+    font-weight: 100;
+    font-size: 10px;
+  }
+}
+
+.section-connect {
+  display: flex;
+  justify-content: space-between;
+  padding: 2dvw;
+}
+
+#sonia {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: -1px;
+}
+
+.boxes-footer {
+  display: flex;
+  gap: 25px;
+  margin: 2dvh 4dvw;
+}
+
+.box {
+  font-family: "Archivo", serif;
+  font-size: 11px;
+  display: flex;
+  padding: 0 1dvw;
+  border-left: 0.2px solid black;
+  flex-direction: column;
+  & p {
+    margin-block: 0.5dvh;
+    letter-spacing: 1.2px;
+    font-weight: 100;
+  }
+}
+
+.box p:hover {
+  cursor: pointer;
+}
+
+.last-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 0.2px solid rgb(184, 178, 172);
+  padding: 1dvh 2dvw 2dvh 2dvw;
+  font-weight: 100;
+  font-size: 10px;
+  font-family: "Archivo", serif;
 }

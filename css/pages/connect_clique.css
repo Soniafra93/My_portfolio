@@ -263,10 +263,10 @@
 }
 
 #sonia {
-  font-family: "Archivo", serif;
+  font-family: "Roboto Mono", monospace;
   font-weight: 600;
   font-size: 18px;
-  letter-spacing: -0.8px;
+  letter-spacing: -1px;
 }
 
 .boxes-footer {
@@ -287,6 +287,10 @@
     letter-spacing: 1.2px;
     font-weight: 100;
   }
+}
+
+.box p:hover {
+  cursor: pointer;
 }
 
 .last-foot {

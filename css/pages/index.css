@@ -33,10 +33,6 @@
   left: 94dvw;
 }
 
-p:hover {
-  font-weight: 600;
-}
-
 .archivo-name {
   font-family: "Archivo", serif;
   font-size: 112px;
@@ -80,7 +76,6 @@ p:hover {
 
 .cards-container-1:hover {
   cursor: pointer;
-  margin-top: -3px;
 }
 
 .cards-container-2 {
@@ -95,12 +90,10 @@ p:hover {
   margin-right: 20px;
 }
 .cards-container-2:hover {
-  margin-top: -3px;
   cursor: pointer;
 }
 
 .cards-container-3:hover {
-  margin-top: -3px;
   cursor: pointer;
 }
 

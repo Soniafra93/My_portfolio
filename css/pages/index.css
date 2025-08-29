@@ -34,8 +34,8 @@
 }
 
 .archivo-name {
-  font-family: "Archivo", serif;
-  font-size: 112px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 96px;
   font-weight: 500;
   font-style: normal;
   font-variation-settings: "width" 100;
@@ -60,18 +60,21 @@
 
 .container {
   margin-top: 60px;
-  margin-right: 25px;
+  display: flex;
+  flex-direction: column;
 }
 
 .main-card-container {
   display: flex;
   justify-content: flex-end;
   margin-top: 40px;
+  margin-right: 3dvw;
+  gap: 2dvw;
 }
 
 .cards-container-1 {
   border-top: 1.3px solid black;
-  margin-right: 60px;
+  width: 21%;
 }
 
 .cards-container-1:hover {
@@ -80,15 +83,14 @@
 
 .cards-container-2 {
   border-top: 1.3px solid black;
-  width: 22dvw;
-  margin-right: 60px;
+  width: 21%;
 }
 
 .cards-container-3 {
   border-top: 1.3px solid black;
-  width: 22dvw;
-  margin-right: 20px;
+  width: 21%;
 }
+
 .cards-container-2:hover {
   cursor: pointer;
 }
@@ -139,17 +141,28 @@ a {
 }
 
 .card-image-1 {
-  height: 260px;
-  width: 160px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(240, 229, 169);
+  & img {
+    object-fit: contain;
+    padding: 2dvh;
+  }
 }
 
 .card-image-2 {
-  width: 25dvw;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(184, 178, 172);
+  & img {
+    object-fit: contain;
+    padding: 2dvh;
+  }
 }
 
 .card-image-3 {
-  width: 25dvw;
+  width: 100%;
 }
 
 .card-image-1 img {
@@ -164,13 +177,71 @@ a {
 }
 
 .card-image-3 img {
-  height: 25dvh;
-  width: 22dvw;
+  width: 100%;
 }
 
 .title-container {
-  position: absolute;
   margin-top: -20px;
   margin-left: 20px;
-  height: 300px;
+}
+
+.foot {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: -5dvh auto 5dvh auto;
+  background-color: white;
+  border: 0.2px solid rgb(184, 178, 172);
+  & a {
+    font-weight: 100;
+    font-size: 10px;
+  }
+}
+
+.section-connect {
+  display: flex;
+  justify-content: space-between;
+  padding: 2dvw;
+}
+
+#sonia {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: -1px;
+}
+
+.boxes-footer {
+  display: flex;
+  gap: 25px;
+  margin: 2dvh 4dvw;
+}
+
+.box {
+  font-family: "Archivo", serif;
+  font-size: 11px;
+  display: flex;
+  padding: 0 1dvw;
+  border-left: 0.2px solid black;
+  flex-direction: column;
+  & p {
+    margin-block: 0.5dvh;
+    letter-spacing: 1.2px;
+    font-weight: 100;
+  }
+}
+
+.box p:hover {
+  cursor: pointer;
+}
+
+.last-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 0.2px solid rgb(184, 178, 172);
+  padding: 1dvh 2dvw 2dvh 2dvw;
+  font-weight: 100;
+  font-size: 10px;
+  font-family: "Archivo", serif;
 }

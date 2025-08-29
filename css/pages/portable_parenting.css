@@ -129,12 +129,12 @@
 
 #square-2-pp {
   background-color: rgb(240, 229, 169);
-  display: flex;
-  background-size: contain;
-  background-position-x: center;
-  background-image: url("../../images/Group\ 11.png");
-  background-position: center;
-  background-repeat: no-repeat;
+  & img {
+    padding: 2dvh;
+    height: 95%;
+    width: 95%;
+    object-fit: contain;
+  }
 }
 
 .gallery-pp img {
@@ -206,7 +206,7 @@
 }
 
 .card-pp {
-  width: 12%;
+  width: 18%;
   border-radius: 6px;
   border: 0.2px solid rgb(184, 178, 172);
   padding: 1dvw;

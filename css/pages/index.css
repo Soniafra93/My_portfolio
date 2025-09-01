@@ -1,3 +1,7 @@
+.body-index {
+  background-color: rgb(16, 16, 16);
+}
+
 .navbar {
   width: 100%;
   display: flex;
@@ -7,6 +11,7 @@
   border: 1px solid black;
   border-radius: 4px;
   justify-content: flex-end;
+  background-color: white;
 }
 
 .nav-item:nth-child(1) {
@@ -58,10 +63,12 @@
   letter-spacing: 10px;
 }
 
-.container {
-  margin-top: 60px;
-  display: flex;
+.container-index {
   flex-direction: column;
+  width: 90%;
+  margin: 8dvh auto 5dvh auto;
+  display: flex;
+  background-color: white;
 }
 
 .main-card-container {
@@ -157,7 +164,7 @@ a {
   background-color: rgb(184, 178, 172);
   & img {
     object-fit: contain;
-    padding: 2dvh;
+    padding: 3dvh;
   }
 }
 
@@ -173,7 +180,7 @@ a {
 
 .card-image-2 img {
   height: 25dvh;
-  width: 22dvw;
+  width: 18dvw;
 }
 
 .card-image-3 img {

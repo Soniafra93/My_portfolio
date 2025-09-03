@@ -37,7 +37,7 @@
   padding-top: 1dvh;
   border-bottom: 0.1px solid rgb(184, 178, 172);
   position: sticky;
-  top: 2dvh;
+  top: 1dvh;
   z-index: 1;
 }
 
@@ -96,6 +96,29 @@
   font-weight: 400;
   :hover {
     font-weight: 400;
+  }
+}
+
+#buttons-pp {
+  width: fit-content;
+  font-family: "Roboto Mono", monospace;
+  font-size: 13px;
+  & p {
+    margin: 0;
+  }
+}
+
+#see-pp {
+  border-radius: 6px;
+  padding: 0.8dvh 0.8dvw;
+  background-color: rgb(16, 16, 16);
+  color: white;
+  border: 0.2px solid rgb(16, 16, 16);
+  &:hover {
+    cursor: pointer;
+    background-color: white;
+    color: rgb(16, 16, 16);
+    border: 0.2px solid rgb(16, 16, 16);
   }
 }
 
